@@ -1,0 +1,9 @@
+resource_group_name  = "devops-week7-rg-saurabh"
+location             = "West Europe"
+virtual_network_name = "devops-week7-vnet-saurabh"
+address_prefixes     = ["10.2.0.0/24"]
+address_space        = ["10.0.0.0/16"]
+subnet_name          = "internal"
+nic_name             = "devops-week7-nic-saurabh"
+vm_name = "devops-week7-vm-saurabh"
+vm_size = "Standard_D2s_v3"
