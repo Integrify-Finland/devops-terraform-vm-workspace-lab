@@ -9,7 +9,7 @@ resource "azurerm_linux_virtual_machine" "virtual_machine" {
   ]
 
   admin_ssh_key {
-    username   = "adminuser"
+    username   = var.username
     public_key = tls_private_key.ssh_key.public_key_openssh
   }
 
